@@ -1,0 +1,201 @@
+#njd{
+    animation-fill-mode: forwards;
+    animation-name: appear;
+    position: relative;
+    left:380; top:225px; 
+    animation-name: puck;
+    animation-duration: 6s;
+    animation-delay: 1.6s;
+    animation-iteration-count: 1;
+}
+#stick{
+    animation-fill-mode: forwards;
+    animation-name: appear;
+    position: relative;
+    left:425px; top:150px; 
+    animation-name: stick;
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+}
+#Nico{
+    left:135px; top:50px;  
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: appear; 
+    animation-name: Nico;
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+}
+
+#PK{
+    left:600px; top:50px;  
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: appear; 
+    animation-name: PK;
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+}
+
+#Sami{
+    left:675px; top:350px;  
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: appear; 
+    animation-name: Sami;
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+}
+
+#Goose{
+    left:135px; top:350px;  
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: appear; 
+    animation-name: Goose;
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+}
+
+#Jack{
+    left:320px; top:205px;  
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-name: appear; 
+    animation-name: Jack;
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes stick {
+    0% {left: 450px; top: 140px;}
+    15% {left: 650px; top: 25px;}
+    30% {left: 650px; top: 225px;}
+    45% {left: 225px; top: 275px;}
+    65% {left: 225px; top: 25px;}
+    75% {left: 275px; top: 150px;}
+    85% {left: 200px; top: 25px;}
+    90% {left: 225px; top: 275px;}
+    95% {left: 300px; top: 150px;}
+    100% {left: 225px; top: 150px;}
+}
+
+@keyframes puck {
+    0% {left: 400px; top: 225px;}
+    15% {left: 600px; top: 100px;}
+    30% {left: 600px; top: 350px;}
+    45% {left: 150px; top: 350px;}
+    65% {left: 150px; top: 100px;}
+    75% {left: 225px; top: 225px;}
+    85% {left: 150px; top: 100px;}
+    90% {left: 150px; top: 350px;}
+    95% {left: 225px; top: 225px;}
+    100% {left: 20px; top: 225px;}
+}
+
+@keyframes Nico {
+    0% {left: 135px; top: 50px;}
+    15% {left: 140px; top: 55px;}
+    30% {left: 140px; top: 60px;}
+    45% {left: 150px; top: 40px;}
+    65% {left: 150px; top: 50px;}
+    75% {left: 120px; top: 60px;}
+    85% {left: 130px; top: 70px;}
+    90% {left: 140px; top: 80px;}
+    95% {left: 110px; top: 100px;}
+    100% {left: 90px; top: 120px;}
+}
+
+@keyframes PK {
+
+    0% {left: 600px; top: 50px;}
+    15% {left: 600px; top: 60px;}
+    30% {left: 520px; top: 65px;
+        transform: rotate(30deg);}
+    45% {left: 440px; top: 85px;
+        transform: rotate(30deg);}
+    
+    65% {left: 360px; top: 100px;
+        transform: rotate(180deg);}
+    75% {left: 260px; top: 125px;
+        transform: rotate(-30deg);}
+    85% {left: 300px; top: 100px;
+        transform: rotate(-30deg);}
+    
+    90% {left: 320px; top: 90px;
+        transform: rotate(30deg);}
+    95% {left: 340px; top: 80px;
+        transform: rotate(30deg);}
+    100% {left: 340px; top: 70px;
+         transform: rotate(-360deg);}
+}
+
+@keyframes Sami {
+    0% {left: 675px; top: 350px;}
+    15% {left: 650px; top: 350px;}
+    30% {left: 600px; top: 350px;}
+    45% {left: 500px; top: 350px;}
+    65% {left: 400px; top: 350px;}
+    75% {left: 350px; top: 350px;}
+    85% {left: 300px; top: 350px;}
+    90% {left: 275px; top: 300px;}
+    95% {left: 275px; top: 240px;}
+    100% {left: 275px; top: 205px;}
+}
+
+@keyframes Goose {
+    0% {left: 135px; top: 350px;}
+    15% {left: 140px; top: 355px;}
+    30% {left: 140px; top: 360px;}
+    45% {left: 150px; top: 340px;}
+    65% {left: 150px; top: 350px;
+        transform: rotate(30deg);}
+    75% {left: 120px; top: 360px;}
+    85% {left: 130px; top: 370px;}
+    90% {left: 140px; top: 380px;}
+    95% {left: 130px; top: 360px;}
+    100% {left:140px; top: 350px;}
+}
+
+@keyframes Jack {
+    0% {left: 320px; top: 205px;}
+    15% {left: 245px; top: 205px;}
+    30% {left: 185px; top: 205px;}
+    45% {left: 120px; top: 205px;}
+    55% {left: 90px; top: 260px;}
+    56% {left: 80px; top: 260px;}
+    57% {left: 70px; top: 260px;}
+    58% {left: 60px; top: 260px;}
+    59% {left: 50px; top: 260px;}
+    60% {left: 40px; top: 260px;}
+    61% {left: 30px; top: 260px;}
+    62% {left: 20px; top: 250px;}
+    62% {left: 10px; top: 230px;}
+    63% {left: 10px; top: 210px;}
+    64% {left: 10px; top: 190px;}
+
+    66% {left: 10px; top: 170px;
+        transform: rotate(-30deg);}
+    68% {left: 30px; top: 175px;}
+    70% {left: 50px; top: 175px;}
+    72% {left: 70px; top: 175px;}
+    74% {left: 90px; top: 185px;}
+    76% {left: 110px; top: 200px;}
+    78% {left: 115px; top: 205px;}
+    80% {left: 120px; top: 215px;}
+    82% {left: 120px; top: 220px;}
+    84% {left: 125px; top: 230px;}
+    86% {left: 120px; top: 240px;}
+    88% {left: 110px; top: 250px;}
+
+    90% {left: 90px; top: 255px;}
+    92% {left: 70px; top: 250px;}
+    95% {left: 60px; top: 250px;}
+    100% {left: 50px; top: 280px;}
+}
